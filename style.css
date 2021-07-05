@@ -1,0 +1,70 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+  margin-bottom: 150px;
+}
+.main-heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+.margin-top {
+  margin-top: 150px;
+}
+.tomato-color {
+  color: tomato;
+}
+.half-width {
+  width: 50%;
+  margin-left: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.description {
+  margin-bottom: 50px;
+  margin-right: 20%;
+}
+.button {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 30px;
+  color: white;
+  background-image: linear-gradient(to left, blue, rgba(156, 56, 151, 0.445));
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.about-section {
+  background-image: url(./img/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.recipie-text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.recipies {
+  display: flex;
+}
+.recipie {
+  width: 33%;
+  margin: 0 2%;
+  box-shadow: 20px 20px 40px gray;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.recipie img {
+  width: 100%;
+}
+.recipie div {
+  margin: 5%;
+}
